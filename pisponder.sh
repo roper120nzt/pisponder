@@ -21,9 +21,9 @@ cat <<'EOF'>>/etc/network/interfaces
 
 auto usb0
 allow-hotplug usb0
-iface usb0 inet static
-    address 192.168.200.1
-    netmask 255.255.255.0
+##iface usb0 inet static
+##    address 192.168.200.1
+##    netmask 255.255.255.0
 EOF
 
 
